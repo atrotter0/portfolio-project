@@ -70,7 +70,13 @@
   display: inline-block;
   margin: 15px 10px;
   padding: 5px;
+  transition: 0.5s;
   width: 30.2%;
+}
+
+.project-tile:hover {
+  box-shadow: 2px 2px 20px #4e4e4e;
+  transition: 0.5s;
 }
 
 .project-tile-image img {
