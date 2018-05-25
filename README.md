@@ -30,4 +30,4 @@ Week 1 capstone project to create a portfolio website.
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2016 **Abel Trotter**
+Copyright (c) 2018 **Abel Trotter**
