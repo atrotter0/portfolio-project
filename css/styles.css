@@ -18,6 +18,26 @@
   padding: 0 0 0 20px;
 }
 
+.social-icons-block {
+  width: 200px;
+}
+
+.social-icons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons-list li {
+  float: left;
+  width: 33%;
+}
+
+.social-icons-list li img {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  width: 45px;
+}
+
 .info-block {
   margin-bottom: 100px;
 }
