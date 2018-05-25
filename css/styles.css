@@ -9,9 +9,15 @@
   width: 100%;
 }
 
+.title-block {
+  color: #000;
+  font-family: 'Shadows Into Light', cursive;
+  margin-bottom: 100px;
+  padding: 0 0 0 20px;
+}
+
 .info-block {
-  margin: 0 auto;
-  text-align: center;
+  margin-bottom: 100px;
 }
 
 .circle-block {
@@ -19,24 +25,16 @@
   background-position: 120% 100%;
   background-size: 120%;
   border-radius: 200px;
+  box-shadow: 2px 2px 2px #4e4e4e;
   height: 350px;
-  margin: 100px auto;
+  margin: 20px auto;
   width: 350px;
 }
 
-.circle-block-caption {
-  background-color: #fff;
-  color: #000;
-  margin-top: -180px;
-  margin-bottom: 150px;
-}
-
 .nav ul {
-  bottom: 0;
   list-style-type: none;
-  margin: 0 auto 200px auto;
+  margin: 0 auto 0px auto;
   padding: 0;
-  position: fixed;
   width: 100%;
 }
 
