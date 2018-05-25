@@ -15,6 +15,17 @@ Week 1 capstone project to create a portfolio website.
 1. Commit and push your changes
 1. Create a PR
 
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+
+## Links
+
+* [Github Repo] (https://github.com/atrotter0/portfolio-project)
+* [Github Pages] (https://atrotter0.github.io/portfolio-project/)
+
 ## License
 
 This software is licensed under the MIT license.
