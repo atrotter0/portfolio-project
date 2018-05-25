@@ -1,4 +1,4 @@
-.top-block {
+.main-block {
   background: rgba(255,255,255,0.5);
   height: 100%;
   left: 0;
@@ -20,7 +20,7 @@
   background-size: 120%;
   border-radius: 200px;
   height: 350px;
-  margin: 0 auto;
+  margin: 100px auto;
   width: 350px;
 }
 
@@ -28,4 +28,21 @@
   background-color: #fff;
   color: #000;
   margin-top: -180px;
+  margin-bottom: 150px;
+}
+
+.nav ul {
+  bottom: 0;
+  list-style-type: none;
+  margin: 0 auto 200px auto;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 33%;
 }
