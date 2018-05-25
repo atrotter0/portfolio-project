@@ -50,11 +50,11 @@
   transition: 0.5s;
 }
 
-.info-block {
+.container-block {
   margin-bottom: 100px;
 }
 
-.circle-block {
+.profile-image-block {
   border-radius: 200px;
   box-shadow: 2px 2px 10px #4e4e4e;
   height: 350px;
@@ -91,10 +91,6 @@
 
 .no-shadow {
   box-shadow: none;
-}
-
-.content-block ol {
-  list-style-type: none;
 }
 
 .project-tile {
@@ -181,7 +177,7 @@ span.glyphicon {
 }
 
 @media screen and (max-width: 785px) {
-  .info-block {
+  .container-block {
     margin-bottom: 100px;
   }
 
@@ -198,7 +194,7 @@ span.glyphicon {
 }
 
 @media screen and (max-width: 500px) {
-  .circle-block {
+  .profile-image-block {
     border-radius: 0px;
   }
 
