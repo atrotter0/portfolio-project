@@ -134,6 +134,14 @@ span.glyphicon {
 
 /* responsive styles */
 
+@media screen and (max-width: 810px) {
+  .project-tile {
+    display: block;
+    width: 70%;
+    margin: 0 auto 60px auto;
+  }
+}
+
 @media screen and (max-width: 785px) {
   .info-block {
     margin-bottom: 100px;
@@ -154,6 +162,10 @@ span.glyphicon {
 @media screen and (max-width: 500px) {
   .circle-block {
     border-radius: 0px;
+  }
+
+  .project-tile {
+    width: 95%;
   }
 }
 
