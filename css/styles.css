@@ -53,6 +53,10 @@ h1, h4 {
   max-width: 800px;
 }
 
+.no-shadow {
+  box-shadow: none;
+}
+
 .home-image {
   background-image: url('../images/abel-trotter-portfolio-picture.jpg');
   background-position: 120% 100%;
