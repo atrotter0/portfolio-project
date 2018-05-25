@@ -58,17 +58,17 @@ a:hover {
 
 .link-box {
   margin: 0 auto;
-  transition: 0.5s;
+  transition: 0.2s;
   width: 33%;
 }
 
 .link-box:hover span:last-child {
+  padding: 5px;
   background-color: transparent;
   box-shadow: 2px 2px 10px #4e4e4e;
   border-radius: 2px;
-  padding: 5px;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 span.glyphicon {
@@ -83,7 +83,7 @@ span.glyphicon {
 
 @media screen and (max-width: 785px) {
   .info-block {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
 
   .nav ul li {
