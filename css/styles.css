@@ -1,10 +1,31 @@
 .top-block {
-  position:fixed;
-  padding:0;
-  margin:0;
-  top:0;
-  left:0;
-  width: 100%;
+  background: rgba(255,255,255,0.5);
   height: 100%;
-  background:rgba(255,255,255,0.5);
+  left: 0;
+  margin: 0;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  width: 100%;
+}
+
+.info-block {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.circle-block {
+  background-image: url('../images/abel-trotter-portfolio-picture.jpg');
+  background-position: 120% 100%;
+  background-size: 120%;
+  border-radius: 200px;
+  height: 350px;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.circle-block-caption {
+  background-color: #fff;
+  color: #000;
+  margin-top: -180px;
 }
