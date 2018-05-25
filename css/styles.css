@@ -14,11 +14,12 @@
 }
 
 .header-block {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   padding: 0 0 0 20px;
 }
 
 .social-icons-block {
+  margin-top: 20px;
   width: 200px;
 }
 
@@ -32,10 +33,21 @@
   width: 33%;
 }
 
+.social-icons-list li:hover {
+
+}
+
 .social-icons-list li img {
   border: 1px solid #000000;
   border-radius: 3px;
+  transition: 0.5s;
   width: 45px;
+}
+
+.social-icons-list li img:hover {
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgba(78, 78, 78, 0.6);
+  transition: 0.5s;
 }
 
 .info-block {
