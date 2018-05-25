@@ -3,7 +3,6 @@
   height: 100%;
   left: 0;
   margin: 0;
-  position: fixed;
   padding: 0;
   top: 0;
   width: 100%;
@@ -40,9 +39,27 @@
 
 .nav ul li {
   display: inline-block;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 10px;
   text-align: center;
+  transition: 0.5s;
   width: 33%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.link-box {
+  margin: 0 auto;
+  transition: 0.5s;
+  width: 33%;
+}
+
+.link-box:hover span:last-child {
+  text-decoration: none;
+  border-bottom: 4px solid #123163;
+  transition: 0.5s;
 }
 
 .large-glyph {
