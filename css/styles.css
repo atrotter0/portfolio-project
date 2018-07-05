@@ -146,6 +146,10 @@ a:hover {
   transition: color 0s;
 }
 
+a:focus {
+  outline: none;
+}
+
 .link-box {
   margin: 0 auto;
   transition: 0.2s;
